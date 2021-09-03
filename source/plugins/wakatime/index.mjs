@@ -15,7 +15,7 @@ export default async function({login, q, imports, data, account}, {enabled = fal
       "30":"last_30_days",
       "180":"last_6_months",
       "365":"last_year",
-    }[days] ?? "last_7_days"
+    }[days] ?? "last_year"
 
     //Querying api and format result (https://wakatime.com/developers#stats)
     console.debug(`metrics/compute/${login}/plugins > wakatime > querying api`)
