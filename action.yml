@@ -1110,7 +1110,7 @@ inputs:
   # Time range to use for displayed stats
   plugin_wakatime_days:
     description: WakaTime time range
-    default: 7
+    default: 365
   
   # Sections to display
   plugin_wakatime_sections:
