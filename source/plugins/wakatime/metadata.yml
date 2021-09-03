@@ -28,7 +28,7 @@ inputs:
       - 30    # Last month
       - 180   # Last 6 months
       - 365   # Last year
-    default: 7
+    default: 365
 
   # Sections to display
   plugin_wakatime_sections:
